@@ -6,7 +6,7 @@
     <description><![CDATA["]]><![CDATA[>]]><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></description>
     <item>
       <title><![CDATA["]]><![CDATA[>]]><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></title>
-      <link>https://google.com/@javascript:alert(`XSS in RSS link !`)</link>
+      <link>https://google.com@javascript:alert(`XSS in RSS link !`)</link>
       <description><![CDATA["]]><![CDATA[>]]><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></description>
       <pubDate>Fri, 24 Aug 2024 10:00:00 +0000</pubDate>
       <guid>http://www.google.com</guid>
